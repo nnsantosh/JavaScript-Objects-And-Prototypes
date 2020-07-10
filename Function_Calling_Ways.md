@@ -3,7 +3,7 @@ There are four ways of calling function in javascript <br/>
 Example: Consider below function <br/>
 
 function bark(){ <br/>
-  console.log("bow bow!!"); <br/>
+ &nbsp;&nbsp;&nbsp;console.log("bow bow!!"); <br/>
 } <br/>
 
 1. The above function can be called as bark(); <br/>
@@ -11,7 +11,7 @@ function bark(){ <br/>
 2. if the above function is part of object like <br/>
     var obj = {}; <br/> <br/>
     obj.bark = function(){ <br/>
-      console.log("bow bow!!"); <br/>
+      &nbsp;&nbsp;&nbsp;console.log("bow bow!!"); <br/>
     } <br/>
 Now this is called as obj.bark(); <br/>
 
