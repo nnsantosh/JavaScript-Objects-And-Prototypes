@@ -42,7 +42,7 @@ Now access this using: myObj.__proto__.test and myObj2.__proto__.test
 So foo.prototype === myObj.__proto__ is true
 
 Refer diagram:
-![Inheritance]https://github.com/nnsantosh/JavaScript-Objects-And-Prototypes/blob/master/prototype.jpg
+![Inheritance](https://github.com/nnsantosh/JavaScript-Objects-And-Prototypes/blob/master/prototype.jpg)
 
 Whenever you try to access property on a object in javascript if the property is not present in the object then JS engine tries to look it up in the prototype of that object. This happens implicitly.
 
@@ -177,7 +177,7 @@ The way to do this is:
 mgr1.__proto__.__proto__ = Employee.prototype;
 
 Refer diagram:
-![Inheritance]https://github.com/nnsantosh/JavaScript-Objects-And-Prototypes/blob/master/inheritance.jpg
+![Inheritance](https://github.com/nnsantosh/JavaScript-Objects-And-Prototypes/blob/master/inheritance.jpg)
 
 Now if we do mgr1.getName() then we will get "Sukesh"
 
