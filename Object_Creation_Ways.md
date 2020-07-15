@@ -31,3 +31,7 @@ In Javascript there are four ways of creating object: <br/>
     &nbsp;&nbsp;&nbsp;return this; <br/>
     } <br/>
     Notice the first line and last line are added by Javascript implicitly. <br/>
+
+4. Using Object Function <br/>
+    var myObj = new Object();
+    
