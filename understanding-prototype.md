@@ -1,16 +1,16 @@
-You can create behavior that impacts multiple objects by using prototypes.
-Consider below example:
-function MotorBike(cadence, speed, gear, pressure){
-  this.cadence = cadence;
-  this.speed = speed;
-  this.gear = gear;
-  this.pressure = pressure;
-  this.inflateTires = function(){
-    this.pressure += 3;
-  }
-}
-var bike1 = new MotorBike(50,20,4,30);
-var bike2 = new MotorBike(50,20,4,30);
+You can create behavior that impacts multiple objects by using prototypes.<br/>
+Consider below example: <br/>
+function MotorBike(cadence, speed, gear, pressure){ <br/>
+  this.cadence = cadence; <br/>
+  this.speed = speed; <br/>
+  this.gear = gear; <br/>
+  this.pressure = pressure; <br/>
+  this.inflateTires = function(){<br/>
+    this.pressure += 3;<br/>
+  }<br/>
+}<br/>
+var bike1 = new MotorBike(50,20,4,30);<br/>
+var bike2 = new MotorBike(50,20,4,30);<br/>
 
 In this case the inflateTires function creates new instance of function object for every new MotorBike object that is created using the constructor function.
 So every object is getting its own copy of inflateTires function.
